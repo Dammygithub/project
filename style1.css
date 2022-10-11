@@ -7,12 +7,21 @@
         width: 490px;
     }
 
+    a li{
+        float: left;
+        font-size: 8px;
+        margin-left: 120px;
+        padding: 6px;
+        display: flex;
+        
+    }
+
     .container{
-       display: block;
+       display: none;
     }
 
     .items{
-        width: 360px;
+        display: none;
     }
 
     .veganstore{
