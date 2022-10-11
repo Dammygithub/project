@@ -1,0 +1,504 @@
+*{
+    margin: 1;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav{
+    background-color: rgb(240, 142, 13);
+    height: 70px;
+    position: relative;
+    top: 0%;
+}
+
+
+.align{
+    margin-left: 500px;
+}
+
+.footer{
+    background-color: rgb(240, 142, 13);
+    color: #000;
+    width: auto;
+    height: 50px;
+    margin-top: 26px;
+    padding-top: 12px;
+    align-items: center;
+}
+
+.faqh{
+    margin-top: 18px;
+    margin-left: 200px;
+}
+
+.signup{
+    background-color: rgba(102, 255, 0, 0.849);
+    color: black;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right -2px;
+    box-sizing: border-box;
+}
+
+.form{
+    border: 1px solid lightgray;
+    width: 320px;
+    height: 40px;
+    opacity: 0.5;
+    padding: 16px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: black;
+    outline: none;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+
+.form:hover{
+    border: none;
+}
+
+
+.faqs{
+    border-bottom: 18px;
+    align-items: center;
+    width: 300px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 600px;
+    margin-top: 180px;
+    /*background-color: burlywood;*/
+}
+
+.signup:hover{
+    box-sizing: border-box;
+    box-shadow: black        2px 2px 2px;
+    cursor: pointer;
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: sticky;
+}
+
+ul{
+    margin-left: 680px;
+    padding-top: 12px;
+    position: sticky; 
+}
+
+li{
+    color:black;
+    display: inline;
+    padding: 18px;
+    margin-left: 4px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+}
+
+a{
+     text-decoration: none;
+}
+
+li:hover{
+    color: white;
+    border-bottom: 1px solid black;
+    transition-property: border-bottom;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.choose{
+    margin-top: 40px;
+    padding: 16px;
+    margin-left: 390px;
+    align-items: center;
+    background-color:  rgb(240, 142, 13);
+    border-radius: 8px;
+    width: 600px;
+}
+
+.sign{
+    background-color: chartreuse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-left: 24px;
+    box-shadow: black 1px 1px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sign:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.sub{
+    width: 635px;
+    margin-left: 390px;
+    align-items: center;
+    border-radius:8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 400px;
+    height: 250px;
+    background-color: black;
+    border-radius: 4px;
+    margin-right: 0px;
+    color: white;
+    padding: 32px;
+}
+
+.content:nth-child(1){
+    background-color: black;
+}
+
+.content:nth-child(2){
+    background-color: black;
+}
+
+/*.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    align-items: start;
+}
+
+.grid-item{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0.3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+
+.card-content{
+    padding: 3rem;
+}
+
+.card-header{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+
+.card-text{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active{
+    background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span{
+    margin-left: 1.5rem;
+}*/
+
+
+.container{
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-top: 12px;
+}
+
+.card-btn{
+    background-color: rgba(102, 255, 0, 0.849);
+    color: black;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right -2px;
+    box-sizing: border-box;
+}
+
+.container s{
+    color: red;
+}
+
+.card-btn:hover{
+    box-shadow: 2px 2px 2px lightgray;
+    background-color: black;
+    color: #fff;
+}
+
+.header{
+    margin-top: 120px;
+    margin-bottom: 8px;
+    margin-left: 593px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.midway{
+    margin-top: 280px;
+    margin-bottom: 8px;
+    margin-left: 593px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row{
+    margin-left: 500px;
+}
+
+.column{
+    float: left;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.title{
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+
+.column img{
+    border-radius: 12px;
+}
+
+.contain{
+    padding: 0 36px;
+    margin-top: 10px;
+    height: 280px;
+}
+
+.contain::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buut{
+    border: none;
+    outline: 0ch;
+    display: inline-block;
+    padding:8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    margin-top: 36px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: black 2px 2px 2px;
+}
+
+.buut:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.plan1, .plan3, .plan4{
+    padding: 16px;
+    width: 240px;
+    height: 320px;
+    border-radius: 6px;
+    box-shadow: lightslategray 2px 2px 2px;
+}
+
+.plan1:hover{
+    transform: scale(0.9);
+    box-shadow: black 4px 2px 2px;
+}
+
+.plan3:hover{
+    transform: scale(0.9);
+    box-shadow: lightgray 4px 2px 2px;
+}
+
+.plan4:hover{
+    transform: scale(0.9);
+    box-shadow: black 4px 2px 2px;
+}
+
+/*.plans plan3 plan4{
+    margin-left: -20px;
+}*/
+
+#bundle{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    margin-top: 36px;
+    margin-left: 66px;
+    border: none;
+    box-shadow: lightslategray 2px 2px 2px;
+}
+
+#bundle:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 2px 2px 2px lightslategray;
+    cursor: pointer;
+}
+
+#socials{
+    background-color:chartreuse;
+    color: black;
+    box-shadow: 2px 2px 2px lightslategray;
+    margin-top: 28px;
+    padding: 8px;
+    border-radius: 12px;
+    outline: none;
+    margin-left: 66px;
+    border: none;
+}
+    
+#socials:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 2px 2px 2px lightslategray;
+    cursor: pointer;
+}
+
+#sharing{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    margin-top: 26px;
+    margin-left: 66px;
+    border: none;
+    box-shadow: lightslategray 2px 2px 2px;
+}
+
+#sharing:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 2px 2px 2px lightslategray;
+    cursor: pointer;
+
+}
+
+.shop-header{
+    margin-top: 160px;
+    margin-bottom: 30px;
+    margin-left: 535px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.data-header{
+    margin-top: 400px;
+    margin-bottom: 8px;
+    margin-left: 550px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.plan1{
+    background-color: chartreuse;
+}
+
+.plan3{
+    background-color: black;
+}
+
+.plan4{
+    background-color:  rgb(240, 142, 13);
+}
+
+.card1, .card2, .card3, .card4{
+    width: 180px;
+    height: 200px;
+    border-radius: 12px;
+}

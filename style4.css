@@ -1,0 +1,268 @@
+*{
+    margin: 1;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav{
+    background-color: rgb(240, 142, 13);
+    height: 70px;
+    position: relative;
+    top: 0%;
+}
+
+.signup{
+    background-color: rgba(102, 255, 0, 0.849);
+    color: black;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right -2px;
+    box-sizing: border-box;
+}
+
+.signup:hover{
+    box-sizing: border-box;
+    box-shadow: black 2px 2px 2px;
+    cursor: pointer;
+}
+
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: sticky;
+}
+
+ul{
+    margin-left: 680px;
+    padding-top: 12px;
+    position: sticky; 
+}
+
+li{
+    color:black;
+    display: inline;
+    padding: 18px;
+    margin-left: 4px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+}
+
+a{
+     text-decoration: none;
+}
+
+li:hover{
+    color: white;
+    border-bottom: 1px solid black;
+    transition-property: border-bottom;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+.devname{
+    width: auto;
+    height: 440px;
+}
+
+.form{
+    border: 1px solid lightgray;
+    width: 320px;
+    height: 40px;
+    opacity: 0.5;
+    padding: 16px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: black;
+    outline: none;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+.footer{
+    background-color: rgb(240, 142, 13);
+    color: #000;
+    width: auto;
+    height: 50px;
+    margin-top: 26px;
+    padding-top: 12px;
+}
+
+.faqh{
+    margin-top: 18px;
+    margin-left: 200px;
+}
+
+.form:hover{
+    border: none;
+}
+
+.faq-container{
+    margin-top: 120px;
+    width: 500px;
+    height: 450px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    
+}
+
+.signup{
+    background-color: rgba(102, 255, 0, 0.849);
+    color: black;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right -2px;
+    box-sizing: border-box;
+}
+
+.faqs{
+    border-bottom: 18px;
+    align-items: center;
+    width: 300px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 600px;
+}
+
+.align{
+    margin-left: 500px;
+}
+
+.faqh{
+    margin-top: 18px;
+    margin-left: 200px;
+}
+
+.container-container{
+    width: 1240px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: whitesmoke;*/
+    margin: auto;
+}
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.image-content, .card-content{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color:chartreuse;
+    padding: 40px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(240, 142, 13);
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    bottom: -40px;
+    background-color: rgb(240, 142, 13);
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: chartreuse;
+}
+
+.description{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: chartreuse;
+}
+
+.card-image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:#fff;
+    padding: 3px; 
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid  rgb(240, 142, 13);
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.quotes{
+    background-color:  rgb(240, 142, 13);
+}
+
+ 
